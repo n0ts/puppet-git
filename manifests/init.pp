@@ -71,13 +71,13 @@ class git (
     }
   }
 
-  if $::gname {
+  if defined('$::gname') {
     git::config::global{ 'user.name':
       value => $::gname
     }
   }
 
-  if $::gemail {
+  if defined('$::gemail') {
     git::config::global{ 'user.email':
       value => $::gemail
     }

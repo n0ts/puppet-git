@@ -1,6 +1,4 @@
-# FIXME - We should probably pull directly from the forge
-mod 'inifile',  '0.0.1', :github_tarball => 'boxen/puppet-inifile'
-mod 'boxen',    '0.1.8', :github_tarball => 'boxen/puppet-boxen'
-mod 'homebrew', '0.2.0', :github_tarball => 'boxen/puppet-homebrew'
-mod 'stdlib',   '3.0.0', :github_tarball => 'puppetlabs/puppetlabs-stdlib'
-mod 'module-data', '0.0.1', :github_tarball => 'ripienaar/puppet-module-data'
+mod 'inifile',  '2.0.0',   :github_tarball => 'puppetlabs/puppetlabs-inifile'
+mod 'boxen',    '3.13.0c', :github_tarball => 'n0ts/puppet-boxen'
+mod 'homebrew', '2.1.0f',  :github_tarball => 'n0ts/puppet-homebrew'
+mod 'stdlib',   '4.17.1',  :github_tarball => 'puppetlabs/puppetlabs-stdlib'

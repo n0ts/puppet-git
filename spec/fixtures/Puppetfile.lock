@@ -1,32 +1,26 @@
 GITHUBTARBALL
-  remote: boxen/puppet-boxen
+  remote: n0ts/puppet-boxen
   specs:
-    boxen (0.1.8)
+    boxen (3.13.0c)
 
 GITHUBTARBALL
-  remote: boxen/puppet-homebrew
+  remote: n0ts/puppet-homebrew
   specs:
-    homebrew (0.2.0)
+    homebrew (2.1.0f)
 
 GITHUBTARBALL
-  remote: boxen/puppet-inifile
+  remote: puppetlabs/puppetlabs-inifile
   specs:
-    inifile (0.0.1)
+    inifile (2.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
-    stdlib (3.0.0)
-
-GITHUBTARBALL
-  remote: ripienaar/puppet-module-data
-  specs:
-    module-data (0.0.1)
+    stdlib (4.17.1)
 
 DEPENDENCIES
-  boxen (= 0.1.8)
-  homebrew (= 0.2.0)
-  inifile (= 0.0.1)
-  module-data (= 0.0.1)
-  stdlib (= 3.0.0)
+  boxen (= 3.13.0c)
+  homebrew (= 2.1.0f)
+  inifile (= 2.0.0)
+  stdlib (= 4.17.1)
 
