@@ -2,7 +2,7 @@
 git::configdir: "/etc/git"
 
 git::package: 'git'
-git::version: '2.15.0-boxen2'
+git::version: 'latest'
 
 git::global_excludesfile: "%{hiera('git::configdir')}/gitignore"
 git::manage_gitignore: true

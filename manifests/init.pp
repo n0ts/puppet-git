@@ -16,10 +16,6 @@ class git (
     include boxen::config
     include homebrew
 
-    homebrew::formula { 'git':
-      before => Package[$package]
-    }
-
     package { $package:
       ensure   => $version,
       provider => homebrew
