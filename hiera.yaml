@@ -5,6 +5,3 @@ defaults:
   data_hash: yaml_data
 hierarchy:
   - name: "OS family"
-    path: "%{::osfamily}.yaml"
-  - name: "common"
-    path: "common.yaml"
